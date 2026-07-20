@@ -1,0 +1,19 @@
+[project]
+name = "cap-zscore-mwe"
+version = "0.1.0"
+description = "Minimal CAP z-scoring simulation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.8",
+    "nibabel>=5.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
